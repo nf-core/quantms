@@ -41,7 +41,7 @@ class Utils {
                 "  ${channels}\n" +
                 "  but the following channel order is required:\n" +
                 "  ${required_channels_in_order}\n" +
-                "  Current conda environment '{System.getenv('CONDA_DEFAULT_ENV')}' lives in '{System.getenv('CONDA_PREFIX')}'\n" +
+                "  Current conda environment '${System.getenv('CONDA_DEFAULT_ENV')}' lives in '${System.getenv('CONDA_PREFIX')}'\n" +
                 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         }
     }
