@@ -31,7 +31,7 @@ class Utils {
         for (int i = 0; i < n - 1; i++) {
             channel_priority_violation |= !(channels.indexOf(required_channels_in_order[i]) < channels.indexOf(required_channels_in_order[i+1]))
         }
-        
+
         if (channels_missing | channel_priority_violation) {
             log.warn "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n" +
                 "  There is a problem with your Conda configuration!\n\n" +
