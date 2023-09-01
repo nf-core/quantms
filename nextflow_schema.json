@@ -802,7 +802,7 @@
                 "transfer_ids": {
                     "type": "string",
                     "description": "Tries a targeted requantification in files where an ID is missing, based on aggregate properties (i.e. RT) of the features in other aligned files (e.g. 'mean' of RT). (**WARNING:** increased memory consumption and runtime). 'false' turns this feature off. (default: 'false')",
-                    "default": "'false'",
+                    "default": "false",
                     "enum": ["false", "mean"],
                     "fa_icon": "fas fa-list-ol"
                 },
