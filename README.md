@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This nf-core repo has been archived. Development of the quantms pipeline continues at the [bigbio repository](https://github.com/bigbio/quantms/).
+
 # ![nf-core/quantms](docs/images/nf-core-quantms_logo_light.png#gh-light-mode-only) ![nf-core/quantms](docs/images/nf-core-quantms_logo_dark.png#gh-dark-mode-only)
 
 [![AWS CI](https://img.shields.io/badge/CI%20tests-full%20size-FF9900?labelColor=000000&logo=Amazon%20AWS)](https://nf-co.re/quantms/results)[![Cite with Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.7754148-1073c8?labelColor=000000)](https://doi.org/10.5281/zenodo.7754148)
